@@ -42,7 +42,8 @@ var init = function() {
 
   client = new Las2peerWidgetLibrary("$Microservice_Url$/\"music\"", iwcCallback, '*');
 
- var songs = 
+ var songs = getSongs(); 
+
 
 }
 
